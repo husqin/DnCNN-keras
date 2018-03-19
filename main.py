@@ -91,7 +91,7 @@ def train():
     else:   
         if args.model == 'DnCNN': model = models.DnCNN()
     # compile the model
-    model.compile(optimizer=Adam(lr=1e-4), loss=['mse'])
+    model.compile(optimizer=Adam(), loss=['mse'])
     
     # use call back functions
     ckpt = ModelCheckpoint(save_dir+'/model_{epoch:02d}.h5', monitor='val_loss', 
