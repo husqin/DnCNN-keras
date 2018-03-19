@@ -107,6 +107,7 @@ def train():
 
 def test(model):
     
+    print('Start to test on {}'.format(args.test_dir))
     out_dir = save_dir + args.test_dir.split('/')[-1] + '/'
     if not os.path.exists(out_dir):
             os.mkdir(out_dir)
