@@ -36,7 +36,7 @@ The average PSNR(dB) results of different methods on the BSD68 dataset.
 
 |  Noise Level | BM3D | DnCNN-S | DnCNN-keras |
 |:-------:|:-------:|:-------:|:-------:|
-| 25  |  28.57 | 29.23 | 29.07  |
+| 25  |  28.57 | 29.23 | 29.21  |
 
 
 
